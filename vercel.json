@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/portfolio",
+      "destination": "https://YOUR_PORTFOLIO_PROJECT.vercel.app/portfolio"
+    },
+    {
+      "source": "/portfolio/:path*",
+      "destination": "https://YOUR_PORTFOLIO_PROJECT.vercel.app/portfolio/:path*"
+    }
+  ]
+}
